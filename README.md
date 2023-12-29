@@ -4,7 +4,7 @@
 
 Install the python driver(kld7) for the radar sensor from https://github.com/nickovs/kld7
 
-The Raspberry Pi (except Raspberry Pi 5) has 2 in-built types of UART:(all UARTS on the Pi ar 3.3V)
+The Raspberry Pi (except Raspberry Pi 5) has 2 in-built types of UART:(all UARTS on the Pi ar 3.3V)  
 	->PL011  
 	->mini UART(has reduced feature set)  
   	
@@ -29,7 +29,14 @@ Now reboot to apply the changes:
 sudo reboot
 ```
 Check to see if the `/dev/ttyAMA0` is being used in `/dev/`  
-Now run the basictest1.py program under /code/radar/ in this repository.  
+Now run the basictest1.py program under /code/radar/ in this repository to see if the radar is working.  
   
 
 ## 2]Camera:
+Follow instrucions from https://docs.arducam.com/Raspberry-Pi-Camera/Native-camera/Quick-Start-Guide/#arducam-pi-hawk-eye-64mp-cameras:~:text=support%20PDAF%20function.-,Step%201.%20Download%20the%20bash%20scripts,-wget%20%2DO%20install_pivariety_pkgs to install necessary packages and drivers.
+
+Add the following under `[all]` in the /boot/config.txt
+``` 
+dtoverlay=arducam-64mp
+ ```  
+ Now test if `libcamera-hello` works properly. If yes then your camera is good to go.  
