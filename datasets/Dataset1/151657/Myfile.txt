@@ -1,0 +1,8 @@
+Detection number: 1
+distance: 14.97      speed: -47.93          angle: 6.41           magnitude:  4953
+Detection number: 2
+distance: 19.8      speed: -20.05          angle: 7.39           magnitude:  4410
+Detection number: 3
+distance: 11.48      speed: -17.8          angle: 8.88           magnitude:  4429
+Detection number: 4
+distance: 3.63      speed: -14.25          angle: 12.49           magnitude:  4415
