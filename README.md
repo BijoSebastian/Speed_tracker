@@ -1,5 +1,11 @@
 # Speed_tracker
 
+# Components:
+1] K-LD7-RFB-00H-01 RFbeam Microwave GmbH
+2] Raspberry pi
+3] ArduCam Hawk-eye 
+
+# Configuration:
 ## 1]Radar sensor(for raspberry pi 4 and below):
 
 Install the python driver(kld7) for the radar sensor from https://github.com/nickovs/kld7
@@ -35,7 +41,7 @@ Now run the basictest1.py program under /code/radar/ in this repository to see i
 ## 2]Camera:
 Follow instrucions from https://docs.arducam.com/Raspberry-Pi-Camera/Native-camera/Quick-Start-Guide/#arducam-pi-hawk-eye-64mp-cameras:~:text=support%20PDAF%20function.-,Step%201.%20Download%20the%20bash%20scripts,-wget%20%2DO%20install_pivariety_pkgs to install necessary packages and drivers.
 
-Add the following under `[all]` in the /boot/config.txt
+Add the following under `[all]` in /boot/config.txt
 ``` 
 dtoverlay=arducam-64mp
  ```  
