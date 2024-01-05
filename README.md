@@ -1,5 +1,11 @@
 # Speed_tracker
 
+# Components:
+1] K-LD7-RFB-00H-01 RFbeam Microwave GmbH  
+2] Raspberry Pi  
+3] ArduCam Hawk-eye
+
+# Setup:
 ## 1]Radar sensor(for raspberry pi 4 and below):
 
 Install the python driver(kld7) for the radar sensor from https://github.com/nickovs/kld7
