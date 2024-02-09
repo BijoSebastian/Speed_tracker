@@ -5,6 +5,10 @@
 2] Raspberry Pi  
 3] ArduCam Hawk-eye
 
+# Dependencies
+1]  Arducam library??
+2] 
+
 # Setup:
 ## 1]Radar sensor(for raspberry pi 4 and below):
 
@@ -45,4 +49,4 @@ Add the following under `[all]` in the /boot/config.txt
 ``` 
 dtoverlay=arducam-64mp
  ```  
- Now test if `libcamera-hello` works properly. If yes then your camera is good to go.  
+ Now test if `libcamera-hello` works properly. If yes then your camera is good to go. 
