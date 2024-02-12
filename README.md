@@ -6,8 +6,8 @@
 3] ArduCam Hawk-eye
 
 # Dependencies
-1]  Arducam library??
-2] 
+1] picamera2  
+2] smptlib  
 
 # Setup:
 ## 1]Radar sensor(for raspberry pi 4 and below):
